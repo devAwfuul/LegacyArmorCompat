@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "legacyarmorcompat",
+  "version": "${version}",
+  "name": "LegacyArmorCompat",
+  "description": "Add support for the legacy format of armor textures for 1.21.4",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/legacyarmorcompat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.awfuul.legacyarmorcompat.client.LegacyarmorcompatClient"
+    ],
+    "main": [
+      "dev.awfuul.legacyarmorcompat.Legacyarmorcompat"
+    ]
+  },
+  "mixins": [
+    "legacyarmorcompat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
