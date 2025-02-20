@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "LegacyArmorCompat",
   "description": "Add support for the legacy format of armor textures for 1.21.4",
-  "authors": [],
+  "authors": "awfuu;",
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/legacyarmorcompat/icon.png",
